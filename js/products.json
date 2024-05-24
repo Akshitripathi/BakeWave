@@ -1,0 +1,14 @@
+[
+    { "id": 1, "name": "Walnut Brownie", "price": 100, "image": "../img/cake.jpg" },
+    { "id": 2, "name": "Ice-Cream Sundae", "price": 200, "image": "../img/icecream.jpg" },
+    { "id": 3, "name": "Ice-Cream Cone", "price": 200, "image": "../img/scoop.jpg" },
+    { "id": 4, "name": "Donut", "price": 150, "image": "../img/donut.jpg" },
+    { "id": 5, "name": "Choco Lava Cake", "price": 120, "image": "../img/closeup-shot-chocolate-cake-wooden-table.jpg" },
+    { "id": 6, "name": "Cappuccino", "price": 150, "image": "../img/cup-three-layered-coffee-dark.jpg" },
+    { "id": 7, "name": "Macrons", "price": 150, "image": "../img/macrons.jpg" },
+    { "id": 8, "name": "Cup Cake", "price": 70, "image": "../img/cupcacke.jpg" },
+    { "id": 9, "name": "Blueberry Cheese Cake", "price": 1500, "../img/blueberry.jpg" },
+    { "id": 10, "name": "Choco Brownie Ice-Cream", "price": 350, "../img/scooops.jpg" },
+    { "id": 11, "name": "Choco Swiss Roll", "price": 300, "image": "../img/cinamonroll.jpg" },
+    { "id": 12, "name": "Fruit Swiss Roll", "price": 280, "image": "../img/roll.jpg" }
+  ]

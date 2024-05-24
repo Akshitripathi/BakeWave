@@ -1,0 +1,173 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Homemade+Apple&family=Pacifico&family=Sacramento&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Dancing+Script:wght@400..700&display=swap');
+
+body, html {
+    height: 100%;
+    margin: 0;
+    
+  }
+  
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    position: relative;
+    opacity: 1;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Dancing Script", cursive;
+  
+  }
+  .bgimg-1 {
+    background-image: url("../img/indexbg1.png");
+    min-height: 100%;
+  }
+  
+  .bgimg-2 {
+    background-image: url("../img/indexbg2.png");
+    min-height: 600px;
+  }
+  
+  .bgimg-3 {
+    background-image: url("../img/indexbg3.png");
+    min-height: 400px;
+  }
+  
+  .caption {
+    position: absolute;
+    left: 0;
+    top: 40%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+  }
+  
+  .caption span.border {
+    font-family: "Dancing Script", cursive;
+    font-size: 50px;
+    color: black;
+    font-weight: bolder;
+    padding: 18px;
+    margin-bottom: 70px;
+    /* font-size: 25px; */
+    letter-spacing: 10px;
+  }
+  .content{
+    /* color: #777; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:white;
+    /* text-align:center; */
+    /* padding:50px 80px; */
+    padding: 30px;
+    padding-right: 20px;
+    /* text-align: justify; */
+  }
+  .content p{
+    font-size: 30px;
+  }
+  .first{
+    text-align: center;
+  }
+  .content p{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .content h3 {
+    letter-spacing: 5px;
+    /* text-transform: uppercase; */
+    font-family: "Dancing Script", cursive;
+    font-weight: bolder;
+    font-size: 45px;
+    color: #d05775;
+  }
+  .bgimg-2 .caption .border{
+    background-color:transparent;
+    font-family: "Dancing Script", cursive;
+    /* background-color: aliceblue; */
+    font-size:35px;
+    font-weight: bolder;
+    color:black;
+  }
+  .bgimg-1 .caption p{
+    font-family: "Dancing Script", cursive;
+    font-weight: bolder;
+    font-size: 40px;
+  }
+  .bgimg-1 .caption a{
+    color: #d05775;
+    text-decoration: underline;
+    /* font-size: 40px; */
+    
+    font-family: "Dancing Script", cursive;
+  }
+
+ div p{
+    font-family: "Dancing Script", cursive;
+    font-size: 30px;
+ }
+  
+ 
+  
+  
+  .footer{
+    font-family: "Dancing Script", cursive;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 66px;
+    margin-top: 0px;
+    background-color: black;
+    color: white;
+}
+.footer h2{
+    font-size: 40px;
+} 
+.footer p{
+    font-size: 25px;
+}
+.text p{
+    margin-top: 12px;
+}
+
+
+@media screen and (max-width: 768px) {
+    .caption span.border {
+        font-size: 30px;
+        padding: 10px;
+    }
+
+    
+    .content {
+        flex-direction: column;
+    }
+
+    .content h3 {
+        font-size: 35px;
+    }
+
+    .content p {
+        font-size: 18px;
+    }
+
+    .footer h2 {
+        font-size: 25px;
+    }
+
+    .footer p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .footer h2 {
+        font-size: 18px;
+    }
+
+    .footer p {
+        font-size: 13px;
+    }
+}

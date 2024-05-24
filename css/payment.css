@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Homemade+Apple&family=Pacifico&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+*{
+ 
+  font-family: "Poetsen One", sans-serif;
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  outline: none;
+  border:none;
+  text-transform: capitalize;
+  transition: all .2s linear;
+}
+
+.divide{
+  display: flex;
+  justify-content: space-around;
+  /* min-height: 120vh; */
+}
+img{
+margin-top: 50px;
+height: 760px;
+width: 600px;
+}
+.container{
+  /* background-color: pink; */
+  background-image: url(../img/Beige\ Brown\ Minimalist\ Aesthetic\ Thank\ You\ Letter\ \(4\).jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-position: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:25px;
+  /* width: 500px; */
+  min-height: 100vh;
+  
+  /* height: 700px; */
+  /* border: 2px so; */
+  /* background: linear-gradient(90deg, #2ecc71 60%, #27ae60 40.1%); */
+}
+
+.container form{
+  /* background-color: rgb(248, 242, 243); */
+  margin-top: 100px;
+  margin-left: 150px;
+  height: 700px;
+  align-items: center;
+  padding:20px;
+  width:700px;
+  /* background: #fff; */
+  /* box-shadow: 0 5px 10px rgba(0,0,0,.1); */
+}
+
+.container form .row{
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-wrap: wrap;
+  gap:15px;
+}
+
+.container form .row .col{
+  flex:1 1 250px;
+}
+
+.container form .row .col .title{
+  /* text-align: center; */
+  font-size: 20px;
+  color:#333;
+  padding-top: 20px;
+  padding-bottom: 25px;
+  text-transform: uppercase;
+}
+
+.container form .row .col .inputBox{
+  margin:15px 0;
+}
+
+.container form .row .col .inputBox span{
+  margin-bottom: 10px;
+  display: block;
+}
+
+.container form .row .col .inputBox input{
+  /* width: 100%; */
+  border:1px solid #ccc;
+  padding:10px 15px;
+  font-size: 15px;
+  text-transform: none;
+}
+
+.container form .row .col .inputBox input:focus{
+  border:1px solid #000;
+}
+
+.container form .row .col .flex{
+  /* display: flex; */
+  gap:15px;
+}
+
+.container form .row .col .flex .inputBox{
+  margin-top: 5px;
+}
+
+.container form .row .col .inputBox img{
+  height: 34px;
+  margin-top: 5px;
+  filter: drop-shadow(0 0 1px #000);
+}
+
+.container form .submit-btn{
+  width: 85%;
+  padding:12px;
+  font-size: 17px;
+  background: #f0d3f0;
+  color:#fff;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.container form .submit-btn:hover{
+  background: #2ecc71;
+}
+
+.modal {
+  /* margin-top: 50px; */
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+  /* background-image: url(https://images.pexels.com/photos/4600654/pexels-photo-4600654.jpeg?auto=compress&cs=tinysrgb&w=600); */
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+  border-radius: 10px;
+}
+
+.modal-content {
+  background-color: white;
+  /* background-image:url(https://images.pexels.com/photos/4600654/pexels-photo-4600654.jpeg?auto=compress&cs=tinysrgb&w=600); */
+  margin: 5% auto; /* 15% from the top and centered */
+  /* background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; */
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Close button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}

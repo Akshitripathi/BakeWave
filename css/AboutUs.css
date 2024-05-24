@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Homemade+Apple&family=Pacifico&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+body {
+    min-width: 390px;
+}
+
+#header {
+    position: relative;
+    text-align: center;
+}
+
+nav{
+
+    /* background-color: black; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position:absolute;
+    top: 0%;
+    width: 100%;
+    background-color:  transparent;
+    height: 200px;
+}
+.logo img{
+    position: relative;
+    height: 200px;
+    border-radius: 150px;
+}
+ul{
+    display: flex;
+}
+ul li{
+    text-decoration: none;
+    list-style: none;
+}
+.container-fluid ul li a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+.categories{
+    display: flex;
+    justify-content: center;
+    
+}
+.cat{
+    font-size: 25px;
+    padding: 25px;
+    border-radius: 10px;
+}
+.cat:hover{
+    background-color: #d05775;
+    color:rgb(243, 244, 226);
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    margin-inline: 22px;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+button{
+    border: none;
+    background-color: white;
+    padding: 10px;
+}
+.icons{
+    display: flex;
+    gap: 28px;
+}
+.icons i{
+    font-size: 28px;
+}
+.categories li{
+    font-size: 30px;
+}
+
+
+.layer {
+    background-color: rgba(0, 0, 20, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#header img {
+    display: block;
+    width: 100%;
+    margin-top: 210px;
+    height: 550px;
+    opacity: 0.4;
+    border-radius: 20px;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#header .centered h1 {
+    font-size: 100px;
+    margin-bottom: 18px;
+    color: white;
+    font-family: Dancing Script;
+}
+
+#header .centered span {
+    font-size: 18px;
+    color: white;
+}
+
+#header .centered span a {
+    color: white;
+    text-decoration: none;
+}
+
+#header .centered span a:hover {
+    color: crimson;
+}
+
+#section1 {
+    margin: 30px auto;
+    width: 60%;
+    padding: 20px;
+}
+
+#section1 h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 900;
+    font-size: 50px;
+}
+
+#section1 p {
+    text-align: center;
+    line-height: 35px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#section2 {
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#section2 .centered {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#section2 #banner1 {
+    display: block;
+    width: 100%;
+    height: 67vh;
+    opacity: 0.4;
+}
+
+#section2 .container .row .col {
+    padding-bottom: 30px;
+}
+
+#section2 .container .row .col h1 {
+    padding-top: 10px;
+    font-size: 35px;
+    color: white;
+}
+
+#section2 .container .row .col h2 {
+    font-size: 30px;
+    color: white;
+    margin-top: -15px;
+}
+
+#section3 {
+    margin: 30px auto;
+    padding: 20px;
+}
+
+#section3 h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 900;
+    font-size: 50px;    
+}
+
+#section3 .container .row .col .article {
+    height: 300px;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    padding: 20px;
+    border: black 2px solid;
+    box-shadow: 2px 2px 10px grey;
+}
+
+#section3 .container .row .col .article img {
+    display: block;
+    margin: auto;
+    width: 70px;
+    height: 70px;
+}
+
+#section3 .container .row .col .article .article-body {
+    text-align: center;
+    padding: 20px;
+    color: rgb(182, 57, 132);
+}
+
+#section3 .container .row .col .article .article-body h5 {
+    font-weight: 100;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+#section3 .container .row .col .article .article-body p {
+    line-height: 20px;
+    font-size: 18px;
+}
+
+.article:hover{
+    opacity: 0.6;
+}
+.article-body h5:hover{
+    color: black;
+}
+.article-body p:hover{
+    color: black;
+}
+
+@media(max-width:994px) {
+    #section3 .container .row .col .article {
+        height: 365px;
+    }
+}
+
+@media(max-width:430px) {
+    #section3 .container .row .col .article {
+        height: 390px;
+    }
+}

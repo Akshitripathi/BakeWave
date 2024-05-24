@@ -1,0 +1,180 @@
+/* checkout_styles.css */
+
+/* Your CSS styles for checkout page */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&family=Homemade+Apple&family=Pacifico&family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+
+
+body{
+    font-family: "Poetsen One", sans-serif;
+    background-image: url(../img/checkout.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+   
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    /* background-color: #ffd5d5; */
+    background-color:  #e3b8c3;
+    opacity: 0.9;
+    color: #4d2121;
+    border-radius: 10px;
+    box-shadow: 0 0 10px white;
+    height: auto;
+    /* font-size: 0px; */
+    border: 2px solid #4d2121;
+}
+.container h1{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 35px;
+    font-weight: bolder;
+}
+.delivery-option {
+    margin-bottom: 20px;
+    
+}
+
+#result {
+    margin-top: 20px;
+}
+
+/* Button styles */
+#confirm-btn {
+    background-color: #4d2121;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Poetsen One", sans-serif;
+    transition: background-color 0.3s;
+}
+
+#confirm-btn:hover {
+    background-color: #111311;
+    /* transform: translateY(-5px); */
+}
+
+/* Select styles */
+#delivery-option {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #e3b8c3;
+    /* color:; */
+    /* font-weight: bolder; */
+    opacity: 0.9;
+    border: 1px solid #4d2121;
+    font-size: 15px;
+}
+#payment{
+    padding: 10px;
+    border-radius: 5px;
+    background-color:  #e3b8c3;
+    /* font-weight: bolder; */
+    opacity: 0.9;
+    border: 1px solid #4d2121;
+    font-size: 15px;
+}
+.payment {
+    margin-bottom: 20px;
+}
+/* Result styles */
+#result {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+}
+label{
+    padding: 10px;
+    margin:8px 0px 8px;
+    font-weight: bolder;
+}
+input{
+    height: 10%;
+    width: 50%;
+    padding: 10px;
+    background-color:  #e3b8c3;
+    font-weight: bolder;
+    opacity: 0.9;
+    margin: 10px;
+}
+select{
+    margin-top: 10px;
+    background-color:  #e3b8c3;
+    font-weight: bolder;
+    opacity: 0.9;
+}
+#go-button {
+    background-color:#e3b8c3; /* Google blue */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-family: "Poetsen One", sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px; /* Add some space above the button */
+}
+
+#go-button:hover {
+    background-color: #4d2121; /* Darker Google blue on hover */
+}
+
+/* Modal styles */
+.modal {
+    /* margin-top: 50px; */
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+    /* background-image: url(https://images.pexels.com/photos/4600654/pexels-photo-4600654.jpeg?auto=compress&cs=tinysrgb&w=600); */
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+.modal-content {
+    background-color: white;
+    /* background-image:url(https://images.pexels.com/photos/4600654/pexels-photo-4600654.jpeg?auto=compress&cs=tinysrgb&w=600); */
+    margin: 5% auto; /* 15% from the top and centered */
+    /* background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Close button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}

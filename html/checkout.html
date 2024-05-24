@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="icon" href="../img/cupcakelogo.png">
+    <link rel="stylesheet" href="../css/checkout_styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Checkout</h1>
+        <div class="delivery-option">
+            <label for="address">Enter Address:</label>
+            <input type="text" id="address" name="address" placeholder="Enter your address"><br>
+            <label for="phone">Phone Number:</label>
+            <input type="text" id="phone" name="phone" placeholder="XXXXXXXXXX"><br>
+            <label for="payment-option">Payment Method:</label>
+            <select name="payment-option" id="payment" >
+                <option value="hello">Pay On Delivery</option>
+                <option value="other">Card Payment</option>
+            </select>
+            <label for="delivery-option">Delivery Option:</label>
+            <select name="delivery-option" id="delivery-option">
+                <option value="standard">Standard Delivery (Rs.5.00)</option>
+                <option value="express">Express Delivery (Rs.10.00)</option>
+            </select>
+        </div>
+        <button id="confirm-btn">Confirm Delivery Option</button>
+        <div id="result"></div>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>Your order has been placed successfully!</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/checkout_script.js"></script>
+</body>
+</html>
