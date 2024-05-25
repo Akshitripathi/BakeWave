@@ -1,7 +1,12 @@
 let container = document.querySelector(".container");
 let cards = document.querySelectorAll(".card");
 
+const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
 
+    hamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+    });
 
 // container.style.display="none";
 
