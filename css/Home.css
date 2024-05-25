@@ -8,52 +8,6 @@
     font-style: normal;
 }
 
-.container {
-    width: 100%;
-    margin: 0 auto;
-}
-
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    background-color: #f8f8f8;
-}
-
-.logo img {
-    max-width: 100px;
-}
-
-.nav-links {
-    display: flex;
-    list-style: none;
-}
-
-.nav-links li {
-    margin: 0 10px;
-}
-
-.nav-links a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-}
-
-.icons a, .icons i {
-    margin-left: 20px;
-    color: #333;
-    font-size: 20px;
-}
-
-.hamburger {
-    display: none;
-    cursor: pointer;
-}
-
-
-
-
 /* body{
 
 } */
