@@ -8,9 +8,50 @@
     font-style: normal;
 }
 
-/* body{
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
 
-} */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f8f8f8;
+}
+
+.logo img {
+    max-width: 200px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin: 0 10px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.icons a, .icons i {
+    margin-left: 20px;
+    color: #333;
+    font-size: 20px;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+
 /* loading Effect */
 #headLoader{
     width: 90%;
@@ -740,4 +781,52 @@ body.showCart .carTab {
     font-weight: 700;
     margin-top: 35px;
     margin-left:20px;
+}
+
+
+
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px;
+        left: -100%;
+        background-color: #f8f8f8;
+        transition: all 0.5s ease;
+    }
+
+    .nav-links.active {
+        left: 0;
+    }
+
+    .nav-links li {
+        margin: 20px 0;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .right img {
+        width: 100%;
+        height: auto;
+    }
+
+    .rowitems, .foodCard, .gallery {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-box, .card, .item {
+        width: 90%;
+        margin: 10px 0;
+    }
+
+    .container-box img, .card video, .item img {
+        width: 100%;
+        height: auto;
+    }
 }
